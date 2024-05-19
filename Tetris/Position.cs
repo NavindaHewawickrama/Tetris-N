@@ -1,7 +1,7 @@
 ﻿
 namespace Tetris
 {
-    class Position
+    public class Position
     {
         public int Row { get; set; }
 
