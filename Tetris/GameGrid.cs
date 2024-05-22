@@ -1,7 +1,7 @@
 ﻿
 namespace Tetris
 {
-    class GameGrid
+    public class GameGrid
     {
         private readonly int[,] grid;
 

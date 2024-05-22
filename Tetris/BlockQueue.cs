@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Tetris
 {
-    class BlockQueue
+    public class BlockQueue
     {
         private readonly Block[] blocks = new Block[]
         {
@@ -28,7 +28,7 @@ namespace Tetris
             NextBlock = RandomBlock();
         }
 
-        public Block GetNadUpdate()
+        public Block GetAndUpdate()
         {
             Block block = NextBlock;
 
